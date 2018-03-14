@@ -4,9 +4,6 @@
 /* Check if a number is prime or not */
 int ft_prime(int number) {
     int index;
-    int prime;
-
-    prime = 1;
 
     for (index = number - 1; index >= 2; index--) {
         if (number % index == 0) {
@@ -14,7 +11,7 @@ int ft_prime(int number) {
         }
     }
 
-    return prime;
+    return 1;
 }
 
 /* Print the N first primes */
