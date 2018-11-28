@@ -17,8 +17,8 @@ main.o: main.c
 	$(PRINT) "==> Compiling main.c file..."
 	$(CC) $(WFLAGS) $(CFLAGS) main.c
 
-ft_prime.o: ft_prime.c ft_prime.h
-	$(PRINT) "==> Compiling ft_prime.h file..."
+ft_prime.o: ft_prime.c
+	$(PRINT) "==> Compiling ft_prime.c file..."
 	$(CC) $(WFLAGS) $(CFLAGS) ft_prime.c
 
 clean:
